@@ -20,7 +20,6 @@ class Solution:
             elif corridor[i] == 'S' and second == 1:
                 second = 0
             elif corridor[i] == 'P' and second == 1:
-                print('eh')
                 continue
         count = 1
         for i in range(len(p_array)):
